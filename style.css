@@ -1,0 +1,503 @@
+.nav-head{
+    color: white;
+    margin-top: 20px;
+}
+
+#p1-head{
+
+    
+    width: 65%;
+    padding-left: 150px;
+    padding-top: 120px;
+    color: white;
+    opacity: 0;
+    transform: translateY(200px);
+    animation: headown 1s forwards ease-in-out;
+}
+@keyframes headown{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#p2-head{
+    width: 100%;
+    padding-top: 250px;
+    color: white;
+    opacity: 1;
+    animation: blur 2s forwards ease-in-out;
+}
+@keyframes blur{
+    to{
+        opacity: 0.6;
+        transform: translateY(50px);
+    }
+}
+.p2-head{
+    
+    font-size: 70px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.p2-head-sub{
+
+    
+    font-size: 70px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    padding-top: 0px;
+}
+.p1-head{
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0px;
+    font-weight: 5000px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+.p1-head-sub{
+    margin-top: -30px;
+    padding-top: 0px;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0px;
+    font-weight: 5000px;
+
+}
+.paragraf{
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+.nav-link{
+   color: white;
+   margin-top: 20px;
+}
+.nav-link:hover
+{
+    color: #ff7f50;
+    padding-right: 50px;
+}
+
+.carousel-item{
+    height: 100vh;
+}
+
+.image1{
+    background: url('/img/1_pVjmFG0zboc1re7UITTXHw.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.image2{
+    background: url('/img/Help-us-help-you.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.image3{
+    background: url('/img/HP-Elite-slice.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+
+}
+.overlay{
+    
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#weare{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+section{
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+}
+.show #head1{
+    transform: translateY(120px);
+    animation: down 1s forwards;
+    
+   
+}
+.show #head1-sub{
+    transform: translateY(240px);
+    opacity: 0;
+    animation: downn 1s forwards;
+    animation-delay: 0.5s;
+    
+   
+}
+.show #weare-para{
+    visibility: hidden; 
+    opacity: 0;
+    animation: showw 1s forwards ease-in-out; 
+    animation-delay: 0.8s;
+}
+
+@keyframes showw{
+    to{
+        opacity: 1;
+        visibility: unset;
+    }
+}
+@keyframes downn{
+    
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes down{
+    
+    to{
+        transform: translateY(0);
+    }
+}
+#weare-para{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+#dual-img-section{
+    height: 400px;;
+}
+#img1{
+    background: url('/img/helloquence-61189-unsplash.jpg');
+    background-size: cover;
+    position: relative;
+}
+#timeline .show #dual-img-section #img1{
+    
+    transform: translateX(-500px);
+    animation: slide 2s forwards ease-in-out;
+    
+}
+#img2{
+    background: url('/img/photo-1498050108023-c5249f4df085.jpg');
+    background-size: cover;
+}
+#timeline .show #dual-img-section #img2{
+    
+    transform: translateX(500px);
+    animation: slide 2s forwards ease-in-out;
+    
+}
+@keyframes slide{
+    to{
+        transform: translateX(0);
+    }
+}
+
+#service-head{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+#code-sec{
+    height: 280px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.text-div{
+    
+    padding-top: 60px;
+
+}
+#code-img{
+    height: 280px;
+    background: url('/img/sai-kiran-anagani-61187-unsplash.jpg');
+    background-size: cover;
+    border-bottom-left-radius: 50px;
+}
+#code-sec #timeline .show #code-img{
+    
+    transform: translateX(500px);
+    animation: slid 2s forwards ease-in-out;
+}
+@keyframes slid{
+    to{
+        transform: translateX(0);
+    }
+}
+#code-img2{
+    height: 280px;
+    background: url('/img/photo-1519389950473-47ba0277781c.jpg');
+    background-size: cover;
+    border-top-right-radius: 50px;
+}
+#ui-sec #timeline .show #code-img2{
+    
+    transform: translateX(-500px);
+    animation: sld 2s forwards ease-in-out;
+}
+@keyframes sld{
+    to{
+        transform: translateX(0);
+    }
+}
+.premium-head{
+    text-align: center;
+    margin-top: 50px;
+}
+#premium{
+    margin-top: 30px;
+    text-align: center;
+}
+#p-img{
+    height: 500px;
+    background: url('/img/charles-1473394-unsplash.jpg');
+    background-size: cover;
+    margin-bottom: 50px;
+    
+}
+#premium #timeline .show #p-img{
+    transform: translateY(100px);
+    animation: appear 1s forwards ease-in-out;
+}
+@keyframes appear{
+    to{
+        transform: translateY(0);
+    }
+}
+#service-img{
+    background: url('/img/pexels-photo-1509428.jpeg');
+    background-size: cover;
+    
+}
+.carousel-control a {
+    width: 50px;
+    margin: 0 20px;
+}
+
+#different{
+    padding-top: 10px;
+}
+#symbol{
+    padding-left: 70px;
+    padding-right: 0px;
+    padding-top: 103px;
+}
+.bulb{
+    padding-bottom: 70px;
+}
+.flash{
+    padding-bottom: 60px;
+}
+#dif-sec{
+    padding-top: 100px;
+}
+#different-img{
+    width: 85%;
+    height: 450px;
+    background: url('/img/mantrans02c.jpg');
+    background-size: cover;
+}
+#responsive-section{
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    
+}
+#res-img{
+    margin-top: 40px;
+    /* height: 620px; */
+    background: url('/img/neil-soni-622526-unsplash.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#rep-textl
+{
+    padding: 30px;
+    padding-top: 100px;
+}
+#rep-textr
+{
+    padding: 30px;
+    padding-top: 200px;
+}
+#lower-repl{
+    padding-top: 100px;
+}
+#lower-repr{
+    padding-top: 100px;
+}
+#footer{
+    height: 100px;
+    padding-top: 45px;
+    background-color: #333;
+    color: white;
+}
+.drop-down{
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+}
+.contact-img{
+    height: 500px;
+   background: url('/img/contact-us-background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#main-contact
+{
+    height: 500px;
+    width: 100%;
+    background-color: #333;
+}
+#c-sec{
+    height: 100vh;
+    background: url('/img/photo-1484807352052-23338990c6c6.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    color: #fff;
+}
+#form{
+    background-color: #fff;
+    border: none;
+    border-radius: .25rem;
+    color: #333;
+    height: 450px;
+    width: 500px;
+    margin-top: 100px;
+    font-weight: 50px;
+}
+#chead{
+    padding-top: 30px;
+}
+.first{
+    display: inline;
+
+}
+#inpbelow{
+    margin-left: 35px;
+    margin-top: 30px;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ced4da;
+}
+#inpbelow:focus{
+    
+    animation: focs 1s forwards ease-in-out;
+}
+@keyframes focs{
+    to{
+        border-color: coral;
+        border-bottom: 2px solid coral;
+    }
+}
+#oinpfull{
+    width: 80%;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    height: 20px;
+    outline: none;
+    border: none;
+}
+#inpfull{
+    padding: 2px;
+    margin-top: 20px;
+    margin-left: 32px;
+    height: 2.5rem;
+    width: 432px;
+    outline: none;
+    background-color: #fff;
+    border-radius: 25rem;
+    border: 1px solid #ced4da;
+}
+#inpfull:focus-within{
+    animation: foc 1s forwards ease-in-out;
+}
+#oinp{
+    width: 75%;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    height: 20px;
+    outline: none;
+    border: none;
+}
+
+#iconx{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+#inp{
+    display: inline-block;
+    padding: 2px;
+    margin-top: 50px;
+    margin-left: 32px;
+    height: 2.5rem;
+    width: 200px;
+    outline: none;
+    background-color: #fff;
+    border-radius: 25rem;
+    border: 1px solid #ced4da;
+    
+    
+}
+#inp:focus-within{
+    
+    animation: foc 1s forwards ease-in-out;
+}
+@keyframes foc{
+    to{
+        border-color: coral;
+    }
+}
+#btn{
+    margin-top: 10px;
+    margin-right: 35px;
+    background-color: coral;
+    width: 140px;
+    height: 40px;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 25rem;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#my-img{
+    margin-top: 75px;
+    margin-left: 180px;
+    height: 250px;
+    width: 250px;
+    /* border-radius: 5rem; */
+    background: url('/img/customer.png');
+    background-size: cover;
+    border: none;
+    outline: none;
+}
+#text-area{
+    padding-left: 150px;
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 20px;
+}
+#icon{
+    padding-right: 20px;
+}
+.pa{
+    padding-left: 50px;
+}
+.row {
+    margin: 0 !important;
+}
